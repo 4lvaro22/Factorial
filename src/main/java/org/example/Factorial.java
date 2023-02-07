@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * @author Alvaro Portales Luna
+ */
 public class Factorial {
     public int compute(int number) {
         if(number < 0){
