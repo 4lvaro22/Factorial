@@ -15,4 +15,8 @@ public class Factorial {
 
         return number * compute(number-1);
     }
+
+    void f(){
+        //ibfaif
+    }
 }
