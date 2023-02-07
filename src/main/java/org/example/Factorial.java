@@ -6,9 +6,6 @@ package org.example;
  * */
 
 public class Factorial {
-    void h(){
-        // d9auhnfuawn
-    }
     public int compute(int number) {
         if(number < 0){
            throw new NegativeValueException("The value " + number + " is negative");
@@ -17,9 +14,5 @@ public class Factorial {
         }
 
         return number * compute(number-1);
-    }
-
-    void f(){
-        // hoadioasw
     }
 }
